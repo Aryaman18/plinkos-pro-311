@@ -71,7 +71,7 @@ if(frameCount%60===0){
 
   //display the particles 
   for (var k = 0; k < particles.length; k++) {
-    plinkos[k].display();   
+    particles[k].display();   
   }
 
 }
